@@ -58,6 +58,7 @@ while digit < len(str(number_1)):
 number_2 = 784015
 string_number_2 = str(number_2)
 result_3 = str()
+result_4 = str()
 
 
 string1_index = 0
@@ -67,4 +68,11 @@ while counter < (len(string_number_2)):
     string1_index = len(string_number_2)-counter-1
     result_3 = result_3 + string_number_2[string1_index]
     counter += 1
-print(result_3)
+print("while loop: "+result_3)
+
+
+for counter_2 in range(0, len(str(number_2))):
+    string1_index = len(string_number_2) - counter_2 - 1
+    result_4 = result_4 + string_number_2[string1_index]
+   #counter_2 += 1
+print("For Loop: " +result_4)
