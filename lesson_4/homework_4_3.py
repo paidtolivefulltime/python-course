@@ -4,20 +4,61 @@
 # Write code, which will count how many times your character is included in your string.
 # Save result to result_1 variable
 
-string_1 = None
-char_1 = None
-result_1 = None
+string_1 = 'Pretty big interesting book'
+char_1 = 'i'
+result_1 = 0
+for char in string_1:
+    if char == char_1:
+        result_1 += 1
+print(result_1)
+
+
+# while loop
+
+result_1_2 = 0
+cursor = 0
+while cursor < (len(string_1)-1):
+    cursor += 1
+    if string_1[cursor] == char_1:
+        result_1_2 += 1
+print(result_1_2)
 
 
 # Enter a random number and save it in variable number_1. Then create code to multiply all the digits together
 # and save result in the result_2 variable.
 
-number_1 = None
-result_2 = None
+number_1 = '234152'
+result_2 = 1
+for i in str(number_1):
+    result_2 *= int(i)
+print(result_2)
+
+# using while loop
+number_1_1 = 234152
+result_2_1 = 1
+
+while number_1_1 >0: # number_1_1 != 0
+    result_2_1 = result_2_1 * (number_1_1 % 10)
+    number_1_1 = number_1_1 //10 # number_1_1 = int(number_1_1 / 10)
+print(result_2_1)
+
 
 
 # Enter a random number and save it in variable number_2. Then create code which will return
 # a number with digits of number_1 in reverse order. Save it in result_3 variable
 
-number_2 = None
-result_3 = None
+number_2 = '56735'
+result_3 = ''
+counter = len(number_2)-1
+print(counter)
+while counter >= 0:
+    result_3 += number_2[counter]
+    counter -= 1
+print(int(result_3))
+
+
+# using for loop
+result_3_1 = ''
+for i in number_2:
+    result_3_1 = str(i) + result_3_1
+print(result_3_1)
