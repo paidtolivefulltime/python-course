@@ -1,7 +1,9 @@
 # Sum up a and b. Write expression to the result_sum variable
 
 a = 10
+print(a)
 b = 15
+print(b)
 result_sum = None
 
 
