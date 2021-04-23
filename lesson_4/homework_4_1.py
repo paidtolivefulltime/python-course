@@ -1,16 +1,3 @@
-var = ['apple', 'banana', 'pineapple', 'cherry', 'kiwi']
-new_var = var[:3]
-print(new_var)
-
-newer_var = var[1:]  # var[1:len(var)]
-print(newer_var)
-
-newest_var = var[:]
-print(var, newest_var)
-
-for i in range(4, 10, 2):
-    print(i)
-
 # Save to variable result_1 the first character of string_1 variable. In result_2 save the last character
 # of string_1. Use indexes.
 
