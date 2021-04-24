@@ -45,7 +45,7 @@ print(result_division_remainder)
 m = 5
 n = 2
 result_power_1 = m ** n
-result_power_2 = pow(m,n)
+result_power_2 = pow(m, n)
 print(result_power_1)
 print(result_power_2)
 
