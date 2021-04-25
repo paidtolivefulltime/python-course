@@ -161,7 +161,7 @@ print('\n')
 list_11 = [1, 2, 3, 1, 1, 1, 2, 3, 4]
 
 
-def even_items_list(array_11):git
+def even_items_list(array_11):
     result = []
     for number in array_11:
         if number % 2 == 0:
